@@ -1,0 +1,6 @@
+df2 =  df.copy()
+# df2 = df.drop_duplicates()
+# df2 = df2.fillna(0)
+# df2 = df2.sort_values("income")
+# df2 = df2.reset_index(drop = True)
+# df2.to_csv("sorted_data.csv")
