@@ -30,3 +30,9 @@ list = ["geeks", "for", "geeks"]
 for index in range(len(list)): 
     print(list[index])  
 
+
+# Prints all letters except 'e' and 's' 
+for letter in 'geeksforgeeks': 
+    if letter == 'e' or letter == 's': 
+        continue 
+    print(letter) 
