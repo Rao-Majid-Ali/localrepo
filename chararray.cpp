@@ -39,9 +39,9 @@ int main() {
     cin.getline(sentence, 30);
     cout << "You entered: " << sentence << endl;
 
-    char word[6]  = "ApPle";
-    toUpper(word,6);
+    char word[15]  = "Applecountdown";
+    toUpper(word,15);
     cout<<endl;
-    tolower(word,6);
+    tolower(word,15);
     return 0;
 }
